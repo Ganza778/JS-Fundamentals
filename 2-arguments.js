@@ -1,4 +1,4 @@
-const a = '0';
+const a = 'process.argv.length - 2';
 if(a==0){
     console.log("No argument");
 } else if(a==1){
