@@ -1,5 +1,5 @@
-const a=5;
-const b=10;
+const a = parseInt(process.argv[2]);
+const b = parseInt(process.argv[3]);
 
 function add(a, b){
    return a+b;
